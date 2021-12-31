@@ -11,5 +11,6 @@
 
 - [Towny](./towny.md)
 - [Nations](./nations.md)
+- [Resources](./resources.md)
 - [War](./war.md)
 
