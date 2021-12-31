@@ -4,7 +4,7 @@ War works with nations sieging down towns. Only nations can go to war.
 
 To declare war on someone first your nation must enemy them with `/n enemy add <NationName>`
 Go to one of their towns you want to siege and place a non-white banner close to the wilderness in the town. This will start a siege. 
-  - Keep inventory is on for people in both towns with the "soldier" or "general" rank when they die in combat near the town.
+  - Dead players keep their level and inventory, but their weapon/armour/tool durability is degraded by 20%.
   - The defending town cannot recruit new residents, claim/unclaim land, or move it's homeblock.
   - Each nation can only have 3 sieges going on at once.
 
