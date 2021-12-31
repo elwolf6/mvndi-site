@@ -3,10 +3,8 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title></title>
+        <title>Resources - Mvndicraft</title>
         
-        
-        <base href="/">
         
 
 
@@ -97,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mvndicraft.html">Mvndicraft</a></li><li class="chapter-item expanded affix "><a href="rules.html">Rules</a></li><li class="chapter-item expanded affix "><li class="part-title">Basics</li><li class="chapter-item expanded "><a href="basics.html"><strong aria-hidden="true">1.</strong> Basics</a></li><li class="chapter-item expanded "><a href="recipies.html"><strong aria-hidden="true">2.</strong> Recipies</a></li><li class="chapter-item expanded "><a href="siegeweapons.html"><strong aria-hidden="true">3.</strong> Siege Weapons</a></li><li class="chapter-item expanded affix "><li class="part-title">Towny</li><li class="chapter-item expanded "><a href="towny.html"><strong aria-hidden="true">4.</strong> Towny</a></li><li class="chapter-item expanded "><a href="nations.html"><strong aria-hidden="true">5.</strong> Nations</a></li><li class="chapter-item expanded "><a href="resources.html"><strong aria-hidden="true">6.</strong> Resources</a></li><li class="chapter-item expanded "><a href="war.html"><strong aria-hidden="true">7.</strong> War</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mvndicraft.html">Mvndicraft</a></li><li class="chapter-item expanded affix "><a href="rules.html">Rules</a></li><li class="chapter-item expanded affix "><li class="part-title">Basics</li><li class="chapter-item expanded "><a href="basics.html"><strong aria-hidden="true">1.</strong> Basics</a></li><li class="chapter-item expanded "><a href="recipies.html"><strong aria-hidden="true">2.</strong> Recipies</a></li><li class="chapter-item expanded "><a href="siegeweapons.html"><strong aria-hidden="true">3.</strong> Siege Weapons</a></li><li class="chapter-item expanded affix "><li class="part-title">Towny</li><li class="chapter-item expanded "><a href="towny.html"><strong aria-hidden="true">4.</strong> Towny</a></li><li class="chapter-item expanded "><a href="nations.html"><strong aria-hidden="true">5.</strong> Nations</a></li><li class="chapter-item expanded "><a href="resources.html" class="active"><strong aria-hidden="true">6.</strong> Resources</a></li><li class="chapter-item expanded "><a href="war.html"><strong aria-hidden="true">7.</strong> War</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -165,15 +163,77 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#document-not-found-404" id="document-not-found-404">Document not found (404)</a></h1>
-<p>This URL is invalid, sorry. Please use the navigation bar or search to continue.</p>
+                        <h1><a class="header" href="#towny-resources" id="towny-resources">Towny Resources</a></h1>
+<p>Town production information is shown on the town screen <code>/t</code>.</p>
+<p>Surveys</p>
+<ul>
+<li>Before resources can be be produced by a town, they must first be discovered.</li>
+<li>Resources can only be discovered by doing Surveys.</li>
+<li>Each Survey discovers a resource of a new level and type
+<ul>
+<li>Survey 1: Reveals Level 1 Resource. Cost 250. Minimum num townblocks 10.</li>
+<li>Survey 2: Reveals Level 2 Resource. Cost 1000. Minimum num townblocks 50.</li>
+<li>Survey 3: Reveals Level 3 Resource. Cost 5000. Minumum num townblocks 100.</li>
+<li>Survey 4: Reveals Level 4 Resource. Cost 20000. Minimum num townblocks 200.</li>
+</ul>
+</li>
+<li>To do a Survey, enter the target town and run <code>/tr survey</code>.</li>
+<li>If the Survey succeeds, a global success message will be generated.</li>
+</ul>
+<p>Daily Production</p>
+<ul>
+<li>On each new Towny New Day, towns automatically produce resources.</li>
+<li>Production is modified by the resource level
+<ul>
+<li>Resource Level 1: Production bonus N/A. Minimum town level 2.</li>
+<li>Resource Level 2: Production bonus +100%. Minimum town level 4</li>
+<li>Resource Level 3: Production bonus +200%. Minimum town level 6</li>
+<li>Resource Level 4: Production bonus +300%. Minimum town level 8</li>
+</ul>
+</li>
+<li>After resources are produced, they are shown as available for collection on the town screen <code>/t</code>.</li>
+<li>If a town is not high enough level to produce a resource, the amount shows as zero.</li>
+<li>For each resource, a town can store a maximum of 5x the production amount. When stores are full, subsequent production is lost.</li>
+<li>Collecting Town Resources
+<ul>
+<li>To collect town resources, as a mayor/assistant/treasurer, enter your town and run <code>/tr towncollect</code>.</li>
+<li>The available resources will then be dropped at your position.</li>
+</ul>
+</li>
+</ul>
+<p>Nation Production</p>
+<ul>
+<li>Nation production &amp; collection information is shown on the nation screen <code>/n</code>.</li>
+<li>If a town belongs to, or is occupied by, a nation, then 50% of the town production is diverted to the nation.</li>
+<li>To collect nation resources, as a king/assistant/treasurer, enter your capital and run /tr nationcollect</li>
+<li>The available resources will then be dropped at your position.</li>
+</ul>
+<p>Daily Extraction Limits</p>
+<ul>
+<li>Extraction is limited per resource category.</li>
+<li>Example: The resource category of &quot;Common Rocks&quot; contains both STONE and COBBLESTONE. Extracting either of those items counts towards the daily limit.</li>
+<li>Extraction is limited per Towny day.</li>
+<li>The daily extraction limits of all players are reset at Towny New Day.</li>
+<li>When a player hits their daily extraction limit for a particular category of material, they will see an information bar message.</li>
+</ul>
+<p>You can send a message only to players in your lands using /tc.
+Switch back to global chat with /g.
+For more in depth documentation read the <a href="https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works">Towny Guide</a> or watch these <a href="https://www.youtube.com/playlist?list=PLvzvmyk0uI0WsLf4iyJZRhD_T2e-ANCmE">Tutorials</a>.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
+                            <a rel="prev" href="nations.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
 
+                        
+                            <a rel="next" href="war.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         
 
                         <div style="clear: both"></div>
@@ -183,7 +243,15 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
+                    <a rel="prev" href="nations.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
 
+                
+                    <a rel="next" href="war.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
                 
             </nav>
 

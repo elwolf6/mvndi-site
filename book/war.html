@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mvndicraft.html">Mvndicraft</a></li><li class="chapter-item expanded affix "><a href="rules.html">Rules</a></li><li class="chapter-item expanded affix "><li class="part-title">Basics</li><li class="chapter-item expanded "><a href="basics.html"><strong aria-hidden="true">1.</strong> Basics</a></li><li class="chapter-item expanded "><a href="recipies.html"><strong aria-hidden="true">2.</strong> Recipies</a></li><li class="chapter-item expanded affix "><li class="part-title">Towny</li><li class="chapter-item expanded "><a href="towny.html"><strong aria-hidden="true">3.</strong> Towny</a></li><li class="chapter-item expanded "><a href="nations.html"><strong aria-hidden="true">4.</strong> Nations</a></li><li class="chapter-item expanded "><a href="war.html" class="active"><strong aria-hidden="true">5.</strong> War</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mvndicraft.html">Mvndicraft</a></li><li class="chapter-item expanded affix "><a href="rules.html">Rules</a></li><li class="chapter-item expanded affix "><li class="part-title">Basics</li><li class="chapter-item expanded "><a href="basics.html"><strong aria-hidden="true">1.</strong> Basics</a></li><li class="chapter-item expanded "><a href="recipies.html"><strong aria-hidden="true">2.</strong> Recipies</a></li><li class="chapter-item expanded "><a href="siegeweapons.html"><strong aria-hidden="true">3.</strong> Siege Weapons</a></li><li class="chapter-item expanded affix "><li class="part-title">Towny</li><li class="chapter-item expanded "><a href="towny.html"><strong aria-hidden="true">4.</strong> Towny</a></li><li class="chapter-item expanded "><a href="nations.html"><strong aria-hidden="true">5.</strong> Nations</a></li><li class="chapter-item expanded "><a href="resources.html"><strong aria-hidden="true">6.</strong> Resources</a></li><li class="chapter-item expanded "><a href="war.html" class="active"><strong aria-hidden="true">7.</strong> War</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -207,19 +207,50 @@ Go to one of their towns you want to siege and place a non-white banner close to
 To execute this action, as king or general, place a chest in the wilderness close to the town.
 <ul>
 <li>This action will rob the town of $40/plot:</li>
+<li>The plunder is divided between the bank of the victorious nation, and the soldiers who contributed to the victory, at a ratio of 3:1.</li>
+<li>Soldiers contributions are measured by banner control: a soldier receives exactly one share if they gain banner control at least once during a battle.</li>
 </ul>
 </li>
+<li>A plundered town cannot fall due to the money loss (it can only go 'bankrupt', preserving the town completely but blocking building/claiming/recruitment).</li>
+</ul>
+<p>Invade Town</p>
+<ul>
+<li>This option is available to victorious attacking nations.</li>
+<li>To execute this action, as a king/general, place a non-white banner in the wilderness close to the town:
+<ul>
+<li>This action will invade the town, setting the victorious nation to be its occupier.</li>
+</ul>
+</li>
+<li>The occupied town remains a full part of the home nation, with the exception of the following areas, where it is counted as part of the occupying nation:
+<ul>
+<li>50% of Town Resources.</li>
+<li>Bonus plots contributions.</li>
+<li>Dynmap town colour.</li>
+<li>Guardian town effects.</li>
+<li>/n list rankings.</li>
+</ul>
+</li>
+<li>Occupied towns can free themselves from occupation if they win a Revolt Siege. A Revolt Siege starts when the mayor places a non-white banner outside the town.</li>
+<li>The occupying nation can attempt to stamp out rebellion via a Suppression siege. A Suppression SIege starts when the occupier places a non-white banner outside the town.</li>
+</ul>
+<p>Abandon Attack</p>
+<ul>
+<li>As a siege attacker (king/general/mayor, depending on siege type), place an all-white banner in the wilderness close to the town.</li>
+</ul>
+<p>Surrender Town</p>
+<ul>
+<li>As a siege defender (king/general/mayor, depending on siege type), place an all-white banner in the wilderness close the the town.</li>
 </ul>
 <p>You can send a message only to players in your lands using /tc.
 Switch back to global chat with /g.
-For more in depth documentation read the <a href="https://github.com/TownyAdvanced/SiegeWar/wiki/Siege-War-User-Guide">Siege War Guide</a>.</p>
+For more in depth documentation read the <a href="https://github.com/TownyAdvanced/SiegeWar/wiki/Siege-War-User-Guide">Siege War Guide</a> or do <code>/sw guide</code> in game.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-                            <a rel="prev" href="nations.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="resources.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
@@ -233,7 +264,7 @@ For more in depth documentation read the <a href="https://github.com/TownyAdvanc
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-                    <a rel="prev" href="nations.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="resources.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 

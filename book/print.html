@@ -97,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mvndicraft.html">Mvndicraft</a></li><li class="chapter-item expanded affix "><a href="rules.html">Rules</a></li><li class="chapter-item expanded affix "><li class="part-title">Basics</li><li class="chapter-item expanded "><a href="basics.html"><strong aria-hidden="true">1.</strong> Basics</a></li><li class="chapter-item expanded "><a href="recipies.html"><strong aria-hidden="true">2.</strong> Recipies</a></li><li class="chapter-item expanded affix "><li class="part-title">Towny</li><li class="chapter-item expanded "><a href="towny.html"><strong aria-hidden="true">3.</strong> Towny</a></li><li class="chapter-item expanded "><a href="nations.html"><strong aria-hidden="true">4.</strong> Nations</a></li><li class="chapter-item expanded "><a href="war.html"><strong aria-hidden="true">5.</strong> War</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mvndicraft.html">Mvndicraft</a></li><li class="chapter-item expanded affix "><a href="rules.html">Rules</a></li><li class="chapter-item expanded affix "><li class="part-title">Basics</li><li class="chapter-item expanded "><a href="basics.html"><strong aria-hidden="true">1.</strong> Basics</a></li><li class="chapter-item expanded "><a href="recipies.html"><strong aria-hidden="true">2.</strong> Recipies</a></li><li class="chapter-item expanded "><a href="siegeweapons.html"><strong aria-hidden="true">3.</strong> Siege Weapons</a></li><li class="chapter-item expanded affix "><li class="part-title">Towny</li><li class="chapter-item expanded "><a href="towny.html"><strong aria-hidden="true">4.</strong> Towny</a></li><li class="chapter-item expanded "><a href="nations.html"><strong aria-hidden="true">5.</strong> Nations</a></li><li class="chapter-item expanded "><a href="resources.html"><strong aria-hidden="true">6.</strong> Resources</a></li><li class="chapter-item expanded "><a href="war.html"><strong aria-hidden="true">7.</strong> War</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -203,6 +203,26 @@
 <p>Potions are completely disabled on Mvndicraft and Enchants are limited. <a href="https://github.com/DieReicheErethons/Brewery/wiki/Recipes">Brewery</a> is also on the server.</p>
 <h1><a class="header" href="#recipies" id="recipies">Recipies</a></h1>
 <p>Do <code>/recipies</code> to see how to craft custom items on the server.</p>
+<h1><a class="header" href="#siege-weapons" id="siege-weapons">Siege Weapons</a></h1>
+<p>You need buy them at the shop in /warp aether.</p>
+<p>Trebuchet</p>
+<ul>
+<li>Needs &quot;boulders&quot; to fire which can be crafted, the recipe is in <code>/recipes</code>.
+Right click the back of the trebuchet to start loading it, when the bowl is on the bottom right click it again with a boulder in your hand to load it, the next right click will fire it.</li>
+<li>You can rotate the trebuchet by holding shift, holding right click on the back of it, and moving forward.</li>
+</ul>
+<p>Ballista</p>
+<ul>
+<li>Needs &quot;bolts&quot; to fire which can be bought in the shop.</li>
+<li>Right click the log to sit in it.</li>
+<li>After you've mounted the ballista hold a bolt in your hand and right click the load it, the next right click till fire.</li>
+</ul>
+<p>Greek Fire</p>
+<ul>
+<li>Needs coal blocks to fire</li>
+<li>Right click the log to sit in it.</li>
+<li>After you've mounted the greek fire hold coal blocks in your hand and right click to load them. Then to flint and steel and hold right click to fire.</li>
+</ul>
 <h1><a class="header" href="#towny" id="towny">Towny</a></h1>
 <p>A town is equivalent to a town or a city. A nation is equivalent to a kingdom/empire.</p>
 <p>You need $250 to create a town using <code>/t new &lt;TownName&gt;</code>.</p>
@@ -215,9 +235,9 @@
 <li>You can kick players from your town using <code>/t kick &lt;username&gt;</code>.</li>
 <li>You can deposit money using <code>/t deposit &lt;amount&gt;</code>.</li>
 <li>You can withdraw money using <code>/t withdraw &lt;amount&gt;</code>.</li>
-<li>You can claim chunks using <code>/t claim</code>. Every chunk costs $25 from your lands bank.</li>
+<li>You can claim chunks using <code>/t claim</code>. Every chunk costs $25 from your town's bank.</li>
 </ul>
-<p>You can send a message only to players in your lands using /tc.
+<p>You can send a message only to players in your town using /tc.
 Switch back to global chat with /g.
 For more in depth documentation read the <a href="https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works">Towny Guide</a> or watch these <a href="https://www.youtube.com/playlist?list=PLvzvmyk0uI0WsLf4iyJZRhD_T2e-ANCmE">Tutorials</a>.</p>
 <h1><a class="header" href="#nations" id="nations">Nations</a></h1>
@@ -234,6 +254,62 @@ For more in depth documentation read the <a href="https://github.com/TownyAdvanc
 You can send a message only to players in your alliance(s) using /ally.
 Switch back to global chat with /g.
 For more in depth documentation read the <a href="https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works">Towny Guide</a>.</p>
+<h1><a class="header" href="#towny-resources" id="towny-resources">Towny Resources</a></h1>
+<p>Town production information is shown on the town screen <code>/t</code>.</p>
+<p>Surveys</p>
+<ul>
+<li>Before resources can be be produced by a town, they must first be discovered.</li>
+<li>Resources can only be discovered by doing Surveys.</li>
+<li>Each Survey discovers a resource of a new level and type
+<ul>
+<li>Survey 1: Reveals Level 1 Resource. Cost 250. Minimum num townblocks 10.</li>
+<li>Survey 2: Reveals Level 2 Resource. Cost 1000. Minimum num townblocks 50.</li>
+<li>Survey 3: Reveals Level 3 Resource. Cost 5000. Minumum num townblocks 100.</li>
+<li>Survey 4: Reveals Level 4 Resource. Cost 20000. Minimum num townblocks 200.</li>
+</ul>
+</li>
+<li>To do a Survey, enter the target town and run <code>/tr survey</code>.</li>
+<li>If the Survey succeeds, a global success message will be generated.</li>
+</ul>
+<p>Daily Production</p>
+<ul>
+<li>On each new Towny New Day, towns automatically produce resources.</li>
+<li>Production is modified by the resource level
+<ul>
+<li>Resource Level 1: Production bonus N/A. Minimum town level 2.</li>
+<li>Resource Level 2: Production bonus +100%. Minimum town level 4</li>
+<li>Resource Level 3: Production bonus +200%. Minimum town level 6</li>
+<li>Resource Level 4: Production bonus +300%. Minimum town level 8</li>
+</ul>
+</li>
+<li>After resources are produced, they are shown as available for collection on the town screen <code>/t</code>.</li>
+<li>If a town is not high enough level to produce a resource, the amount shows as zero.</li>
+<li>For each resource, a town can store a maximum of 5x the production amount. When stores are full, subsequent production is lost.</li>
+<li>Collecting Town Resources
+<ul>
+<li>To collect town resources, as a mayor/assistant/treasurer, enter your town and run <code>/tr towncollect</code>.</li>
+<li>The available resources will then be dropped at your position.</li>
+</ul>
+</li>
+</ul>
+<p>Nation Production</p>
+<ul>
+<li>Nation production &amp; collection information is shown on the nation screen <code>/n</code>.</li>
+<li>If a town belongs to, or is occupied by, a nation, then 50% of the town production is diverted to the nation.</li>
+<li>To collect nation resources, as a king/assistant/treasurer, enter your capital and run /tr nationcollect</li>
+<li>The available resources will then be dropped at your position.</li>
+</ul>
+<p>Daily Extraction Limits</p>
+<ul>
+<li>Extraction is limited per resource category.</li>
+<li>Example: The resource category of &quot;Common Rocks&quot; contains both STONE and COBBLESTONE. Extracting either of those items counts towards the daily limit.</li>
+<li>Extraction is limited per Towny day.</li>
+<li>The daily extraction limits of all players are reset at Towny New Day.</li>
+<li>When a player hits their daily extraction limit for a particular category of material, they will see an information bar message.</li>
+</ul>
+<p>You can send a message only to players in your lands using /tc.
+Switch back to global chat with /g.
+For more in depth documentation read the <a href="https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works">Towny Guide</a> or watch these <a href="https://www.youtube.com/playlist?list=PLvzvmyk0uI0WsLf4iyJZRhD_T2e-ANCmE">Tutorials</a>.</p>
 <h1><a class="header" href="#war" id="war">War</a></h1>
 <p>War works with nations sieging down towns. Only nations can go to war.</p>
 <p>To declare war on someone first your nation must enemy them with <code>/n enemy add &lt;NationName&gt;</code>
@@ -278,12 +354,43 @@ Go to one of their towns you want to siege and place a non-white banner close to
 To execute this action, as king or general, place a chest in the wilderness close to the town.
 <ul>
 <li>This action will rob the town of $40/plot:</li>
+<li>The plunder is divided between the bank of the victorious nation, and the soldiers who contributed to the victory, at a ratio of 3:1.</li>
+<li>Soldiers contributions are measured by banner control: a soldier receives exactly one share if they gain banner control at least once during a battle.</li>
 </ul>
 </li>
+<li>A plundered town cannot fall due to the money loss (it can only go 'bankrupt', preserving the town completely but blocking building/claiming/recruitment).</li>
+</ul>
+<p>Invade Town</p>
+<ul>
+<li>This option is available to victorious attacking nations.</li>
+<li>To execute this action, as a king/general, place a non-white banner in the wilderness close to the town:
+<ul>
+<li>This action will invade the town, setting the victorious nation to be its occupier.</li>
+</ul>
+</li>
+<li>The occupied town remains a full part of the home nation, with the exception of the following areas, where it is counted as part of the occupying nation:
+<ul>
+<li>50% of Town Resources.</li>
+<li>Bonus plots contributions.</li>
+<li>Dynmap town colour.</li>
+<li>Guardian town effects.</li>
+<li>/n list rankings.</li>
+</ul>
+</li>
+<li>Occupied towns can free themselves from occupation if they win a Revolt Siege. A Revolt Siege starts when the mayor places a non-white banner outside the town.</li>
+<li>The occupying nation can attempt to stamp out rebellion via a Suppression siege. A Suppression SIege starts when the occupier places a non-white banner outside the town.</li>
+</ul>
+<p>Abandon Attack</p>
+<ul>
+<li>As a siege attacker (king/general/mayor, depending on siege type), place an all-white banner in the wilderness close to the town.</li>
+</ul>
+<p>Surrender Town</p>
+<ul>
+<li>As a siege defender (king/general/mayor, depending on siege type), place an all-white banner in the wilderness close the the town.</li>
 </ul>
 <p>You can send a message only to players in your lands using /tc.
 Switch back to global chat with /g.
-For more in depth documentation read the <a href="https://github.com/TownyAdvanced/SiegeWar/wiki/Siege-War-User-Guide">Siege War Guide</a>.</p>
+For more in depth documentation read the <a href="https://github.com/TownyAdvanced/SiegeWar/wiki/Siege-War-User-Guide">Siege War Guide</a> or do <code>/sw guide</code> in game.</p>
 
                     </main>
 
