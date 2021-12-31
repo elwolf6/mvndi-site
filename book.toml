@@ -1,0 +1,6 @@
+[book]
+authors = ["elwolf"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Mvndicraft"

@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>War - Mvndicraft</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mvndicraft.html">Mvndicraft</a></li><li class="chapter-item expanded affix "><a href="rules.html">Rules</a></li><li class="chapter-item expanded affix "><li class="part-title">Basics</li><li class="chapter-item expanded "><a href="basics.html"><strong aria-hidden="true">1.</strong> Basics</a></li><li class="chapter-item expanded "><a href="recipies.html"><strong aria-hidden="true">2.</strong> Recipies</a></li><li class="chapter-item expanded affix "><li class="part-title">Towny</li><li class="chapter-item expanded "><a href="towny.html"><strong aria-hidden="true">3.</strong> Towny</a></li><li class="chapter-item expanded "><a href="nations.html"><strong aria-hidden="true">4.</strong> Nations</a></li><li class="chapter-item expanded "><a href="war.html" class="active"><strong aria-hidden="true">5.</strong> War</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Mvndicraft</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#war" id="war">War</a></h1>
+<p>War works with nations sieging down towns. Only nations can go to war.</p>
+<p>To declare war on someone first your nation must enemy them with <code>/n enemy add &lt;NationName&gt;</code>
+Go to one of their towns you want to siege and place a non-white banner close to the wilderness in the town. This will start a siege. </p>
+<ul>
+<li>Keep inventory is on for people in both towns with the &quot;soldier&quot; or &quot;general&quot; rank when they die in combat near the town.</li>
+<li>The defending town cannot recruit new residents, claim/unclaim land, or move it's homeblock.</li>
+<li>Each nation can only have 3 sieges going on at once.</li>
+</ul>
+<p>Only while a battle session is active can Battle Points be earned</p>
+<ul>
+<li>Battle Sessions start on weekdays at 19:10 and 21:10 UTC.</li>
+<li>Battle Sessions start on weekends at 12:10, 14:10, 16:10, 18:10, and 20:10 UTC.</li>
+<li>Battle Sessions last 50 minutes.</li>
+<li>Whenever a siege participant of military rank dies in the Siege-Zone (regardless of cause), 150 battle points are awarded to the opposing side.</li>
+</ul>
+<p>Banner Control</p>
+<ul>
+<li>The Timed-Point-Zone is a 16 block radius around the Siege-Banner.</li>
+<li>As a siege participant of military rank, move into the Timed-Point-Zone. A Banner Control Session will start</li>
+<li>If an enemy player enters the Timed-Point-Zone while you are in a Banner Control Session, you will glow.</li>
+<li>If you remain alive and still within the Timed-Point-Zone, for 7 minutes, you will gain Banner Control for your side, or be added to the Banner Control List.</li>
+<li>Your team will automatically gets 30 Battle Points every minute for each player on the Banner Control List.</li>
+<li>If a team steals battle control from the opposing team, the stealing team get an instant Banner Control Reversal Bonus, equal to twice the number battle points the enemy earned from capping the banner</li>
+<li>Allied nations can fully contribute to each other's banner control.</li>
+</ul>
+<p>Win Battle</p>
+<ul>
+<li>Be the team with the highest Battle Points when the current battle session ends.</li>
+<li>The winner gets their Battle Points applied to the Siege Balance (added for attacker; subtracted for defender), the loser's Battle Points are lost.</li>
+</ul>
+<p>Win Siege</p>
+<ul>
+<li>Each siege lasts a maximum of 3 days, but this duration can be cut short if the attacker abandons, or the defender surrenders.</li>
+<li>When the siege ends, if the Siege Balance is greater than zero, the attacker wins, if the Siege Balance is zero or less, the defender wins.</li>
+<li>After the siege ends, the besieged town receives Siege Immunity, for x3 times the duration of the siege which protects the town from further attacks.</li>
+<li>After the siege ends, the besieged town also receives Revolt Immunity for 75% the duration of the Siege Immunity which stops the town from revolting</li>
+</ul>
+<p>Plunder Town</p>
+<ul>
+<li>This option is available to victorious nations
+To execute this action, as king or general, place a chest in the wilderness close to the town.
+<ul>
+<li>This action will rob the town of $40/plot:</li>
+</ul>
+</li>
+</ul>
+<p>You can send a message only to players in your lands using /tc.
+Switch back to global chat with /g.
+For more in depth documentation read the <a href="https://github.com/TownyAdvanced/SiegeWar/wiki/Siege-War-User-Guide">Siege War Guide</a>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="nations.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="nations.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
