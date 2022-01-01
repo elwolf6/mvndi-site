@@ -1,15 +1,31 @@
 # Rules
 
-1. Nation/Land names must be historically accurate
+1. Hacking is strictly forbidden
 
-2. Griefing is not allowed under any situation (siege weapons do not count)
+2. Betrayal of a faction is allowed spying is allowed
 
-3. Do not ruin the land scape
+3. factions must fit the geographical setting and make sense in terms of their names
 
-4. You cannot kick lands/players from the nation/land during pvp
+4. No lag machines of any kind
 
-5. End crystal combat and bed combat in the nether is banned
+5. No building the sea
 
-6. Lava during pvp is banned (flint in steal ok)
+6. No racial slurs, blasphemy
 
-7. Just because it isn't on the list doesn't mean staff can punish you for it
+7. No going on the nether roof
+
+8. No floating builds islands or castles
+
+9. Builds must at least try to look medieval in appearance
+
+10. No exploits
+
+11. No combat logging
+
+12. No ban evasion
+
+13. don't name a town something retarded have it semi larp just dont make it something like "soviet onion" in the middle ages. 1 hr temp ban
+
+14. Terrain griefing is banned (going right outside anothers town making a swastika or something) 2 day temp ban
+
+15. You cannot kill people in a a siege zone if you're not apart of or allied to any of the participants
