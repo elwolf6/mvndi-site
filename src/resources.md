@@ -10,7 +10,7 @@ Surveys
     - Survey 2: Reveals Level 2 Resource. Cost 1000. Minimum num townblocks 50.
     - Survey 3: Reveals Level 3 Resource. Cost 5000. Minumum num townblocks 100.
     - Survey 4: Reveals Level 4 Resource. Cost 20000. Minimum num townblocks 200.
-  - To do a Survey, enter the target town and run `/tr survey`.
+  - To do a Survey, enter the target town and run `/townyresources survey`.
   - If the Survey succeeds, a global success message will be generated.
 
 Daily Production
@@ -24,13 +24,13 @@ Daily Production
   - If a town is not high enough level to produce a resource, the amount shows as zero.
   - For each resource, a town can store a maximum of 5x the production amount. When stores are full, subsequent production is lost.
   - Collecting Town Resources
-    - To collect town resources, as a mayor/assistant/treasurer, enter your town and run `/tr towncollect`.
+    - To collect town resources, as a mayor/assistant/treasurer, enter your town and run `/townyresources towncollect`.
     - The available resources will then be dropped at your position.
 
 Nation Production
   - Nation production & collection information is shown on the nation screen `/n`.
   - If a town belongs to, or is occupied by, a nation, then 50% of the town production is diverted to the nation.
-  - To collect nation resources, as a king/assistant/treasurer, enter your capital and run /tr nationcollect
+  - To collect nation resources, as a king/assistant/treasurer, enter your capital and run /townyresources nationcollect
   - The available resources will then be dropped at your position.
 
 Daily Extraction Limits
