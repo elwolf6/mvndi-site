@@ -39,7 +39,3 @@ Daily Extraction Limits
   - Extraction is limited per Towny day.
   - The daily extraction limits of all players are reset at Towny New Day.
   - When a player hits their daily extraction limit for a particular category of material, they will see an information bar message.
-
-You can send a message only to players in your lands using /tc.
-Switch back to global chat with /g.
-For more in depth documentation read the [Towny Guide](https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works) or watch these [Tutorials](https://www.youtube.com/playlist?list=PLvzvmyk0uI0WsLf4iyJZRhD_T2e-ANCmE).

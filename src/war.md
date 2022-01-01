@@ -60,6 +60,4 @@ Abandon Attack
 Surrender Town
   - As a siege defender (king/general/mayor, depending on siege type), place an all-white banner in the wilderness close the the town.
 
-You can send a message only to players in your lands using /tc.
-Switch back to global chat with /g.
 For more in depth documentation read the [Siege War Guide](https://github.com/TownyAdvanced/SiegeWar/wiki/Siege-War-User-Guide) or do `/sw guide` in game.
