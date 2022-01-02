@@ -7,6 +7,7 @@
 - [Basics](./basics.md)
 - [Recipies](./recipies.md)
 - [Siege Weapons](./siegeweapons.md)
+- [Seasons](./seasons.md)
 
 # Towny
 
