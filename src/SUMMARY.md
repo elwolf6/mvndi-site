@@ -8,6 +8,7 @@
 - [Recipies](./recipies.md)
 - [Siege Weapons](./siegeweapons.md)
 - [Seasons](./seasons.md)
+- [Player Shops](./chestshop.md)
 
 # Towny
 
