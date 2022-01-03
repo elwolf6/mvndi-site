@@ -1,6 +1,6 @@
 # Rules
 
-1. Hacking is strictly forbidden
+1. Hacking is strictly forbidden (Any glitch or Hack report needs to have been recorded and documented, failling to follow through with proof will result in you getting punished for false accusations obviously within reason. )
 
 2. Betrayal of a faction is allowed spying is allowed
 
@@ -29,3 +29,5 @@
 14. Terrain griefing is banned (going right outside anothers town making a swastika or something) 2 day temp ban
 
 15. You cannot kill people in a a siege zone if you're not apart of or allied to any of the participants
+
+16. No temporary factions of any kind as in factions used only for pvp purposes used like a de facto outpost 2 day temp ban
