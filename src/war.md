@@ -23,6 +23,17 @@ Banner Control
   - If a team steals battle control from the opposing team, the stealing team get an instant Banner Control Reversal Bonus, equal to twice the number battle points the enemy earned from capping the banner
   - Allied nations can fully contribute to each other's banner control.
 
+Anyone without a millitary rank from the warring nations will get poison effect if they enter the banner zone. Give millitary ranks to people with `/n rank add <name> <rank>`.
+Millitary Ranks
+- private
+- sergeant
+- lietenant
+- captain
+- major
+- colonel
+- general
+Private rank gets $100 of plunder and for each rank it goes up by $50 except major->colonel->general it goes up by $100.
+
 Win Battle
   - Be the team with the highest Battle Points when the current battle session ends.
   - The winner gets their Battle Points applied to the Siege Balance (added for attacker; subtracted for defender), the loser's Battle Points are lost.
@@ -50,7 +61,6 @@ Invade Town
     - Bonus plots contributions.
     - Dynmap town colour.
     - Guardian town effects.
-    - /n list rankings.
   -  Occupied towns can free themselves from occupation if they win a Revolt Siege. A Revolt Siege starts when the mayor places a non-white banner outside the town.
   - The occupying nation can attempt to stamp out rebellion via a Suppression siege. A Suppression SIege starts when the occupier places a non-white banner outside the town.
 
