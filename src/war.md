@@ -24,6 +24,7 @@ Banner Control
   - Allied nations can fully contribute to each other's banner control.
 
 Anyone without a millitary rank from the warring nations will get poison effect if they enter the banner zone. Give millitary ranks to people with `/n rank add <name> <rank>`.
+
 Millitary Ranks
 - private
 - sergeant
