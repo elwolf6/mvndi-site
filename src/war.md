@@ -32,6 +32,7 @@ Millitary Ranks
 - major
 - colonel
 - general
+
 Private rank gets $100 of plunder and for each rank it goes up by $50 except major->colonel->general it goes up by $100.
 
 Win Battle
