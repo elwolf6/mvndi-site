@@ -27,9 +27,6 @@ The calendar follows the real world Gregorian calendar, but it is scaled to mine
 ### Summer
 - Normal minecraft, nothing special.
 ### Fall
-- Bats appear.
-- Cave spiders appear.
-- Foxes appear.
 - Mushrooms spawn on the surface.
 - Spiders are more frequent.
 ### Winter
