@@ -38,13 +38,17 @@ Using these commands you can redeem tokens for your town/nation.
 		- Block HP will tick once every 5 seconds when considered active.
 - Mayor/King Death: OFF
 - Startup Delay: 0
-- Points Per Kill: 10
+- Points Per Kill: 5
 - Fire Spread: ON
 - Explosions: ON
 - Economy: ON
+	- Death Cost: $50
+	- TownBlock Loss Cost: $100
 	- If a town runs out of money during a war, they are removed from the war.
-		- Death Cost: $50
-		- TownBlock Loss Cost: $100
+- Points
+	- TownBlock: 10 (Awarded when a townblock is won)
+	- Town: 20 (Awarded when a town is knocked out of a war)
+	- Nation 100 (Awarded when a nation is knocked out of a war)
 
 ## War Type Specific Settings
 ### Riot
@@ -59,7 +63,7 @@ Using these commands you can redeem tokens for your town/nation.
 - Winner Takes Over Town: YES
 ### Town 
 - Token Cost: 1
-- Minimum Required Players: 5
+- Minimum Required Players: 3
 - Base Spoils: $100
 - Cooldown Time: 1 day
 - Resident Lives: 3
@@ -69,7 +73,7 @@ Using these commands you can redeem tokens for your town/nation.
 - Winner Takes Over Town: NO
 ### Civil 
 - Token Cost: 4
-- Minimum Required Players: 7
+- Minimum Required Players: 4
 - Base Spoils: $500
 - Cooldown Time: 4 days
 - Resident Lives: 6
@@ -79,7 +83,7 @@ Using these commands you can redeem tokens for your town/nation.
 - Winner Takes Over Nation: YES
 ### Nation
 - Token Cost: 2
-- Minimum Required Players: 9
+- Minimum Required Players: 6
 - Base Spoils: $1000
 - Cooldown Time: 2 days
 - Resident Lives: 9
