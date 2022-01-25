@@ -23,7 +23,6 @@ The calendar follows the real world Gregorian calendar, but it is scaled to mine
 
 ### Spring
 - Flowers spawn more.
-- More animals appear.
 - Bees are more frequent.
 ### Summer
 - Normal minecraft, nothing special.
@@ -36,4 +35,3 @@ The calendar follows the real world Gregorian calendar, but it is scaled to mine
 ### Winter
 - Wolves appear.
 - Snows in most biomes.
-- Skeletons appear more chilly.

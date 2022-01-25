@@ -247,7 +247,6 @@ Right click the back of the trebuchet to start loading it, when the bowl is on t
 <h3 id="spring"><a class="header" href="#spring">Spring</a></h3>
 <ul>
 <li>Flowers spawn more.</li>
-<li>More animals appear.</li>
 <li>Bees are more frequent.</li>
 </ul>
 <h3 id="summer"><a class="header" href="#summer">Summer</a></h3>
@@ -368,95 +367,109 @@ For more in depth documentation read the <a href="https://github.com/TownyAdvanc
 <li>When a player hits their daily extraction limit for a particular category of material, they will see an information bar message.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="war"><a class="header" href="#war">War</a></h1>
-<p>War works with nations sieging down towns. Only nations can go to war.</p>
-<p>To declare war on someone first your nation must enemy them with <code>/n enemy add &lt;NationName&gt;</code>
-Go to one of their towns you want to siege and place a non-white banner close to the wilderness in the town. This will start a siege. </p>
+<p><strong>For reference on how the wars operate, please look at this link below.</strong></p>
+<p><a href="https://townyadvanced.github.io/eventwar.html">Towny Event War</a></p>
+<p>This page assumes you have read and understand the contents of link above.</p>
+<p>Mvndicraft currently only has 4 of the 5 wartypes in Event War as currently the &quot;World War&quot; type is under development.</p>
+<h2 id="obtaining-tokens"><a class="header" href="#obtaining-tokens">Obtaining Tokens</a></h2>
+<p>One token is added to each town and nation, once every Towny Day. (24 hours)</p>
+<h2 id="declaring-war"><a class="header" href="#declaring-war">Declaring War</a></h2>
+<p>In order to declare war you must redeem a War Declaration using your war tokens.</p>
+<p>Using these commands you can redeem tokens for your town/nation.</p>
+<blockquote>
+<p>/t redeem token &lt;war_type&gt;</br>
+/n redeem token &lt;war_type&gt;</p>
+</blockquote>
+<h3 id="valid-war-types"><a class="header" href="#valid-war-types">Valid War Types</a></h3>
 <ul>
-<li>Dead players keep their level and inventory, but their weapon/armour/tool durability is degraded by 20%.</li>
-<li>The defending town cannot recruit new residents, claim/unclaim land, or move it's homeblock.</li>
-<li>Each nation can only have 3 sieges going on at once.</li>
+<li>riot</li>
+<li>townwar</li>
+<li>civilwar</li>
+<li>nationwar</li>
 </ul>
-<p>Only while a battle session is active can Battle Points be earned</p>
+<h3 id="declaration-permissions"><a class="header" href="#declaration-permissions">Declaration Permissions</a></h3>
 <ul>
-<li>Battle Sessions start on weekdays at 19:10 and 21:10 UTC.</li>
-<li>Battle Sessions start on weekends at 12:10, 14:10, 16:10, 18:10, and 20:10 UTC.</li>
-<li>Battle Sessions last 50 minutes.</li>
-<li>Whenever a siege participant of military rank dies in the Siege-Zone (regardless of cause), 150 battle points are awarded to the opposing side.</li>
+<li>Residents are allowed to declare riots.</li>
+<li>Mayors are allowed to declare town and civil wars.</li>
+<li>Kings are allowed to declare nation wars.</li>
 </ul>
-<p>Banner Control</p>
+<h2 id="general-settings"><a class="header" href="#general-settings">General Settings</a></h2>
 <ul>
-<li>The Timed-Point-Zone is a 16 block radius around the Siege-Banner.</li>
-<li>As a siege participant of military rank, move into the Timed-Point-Zone. A Banner Control Session will start</li>
-<li>If an enemy player enters the Timed-Point-Zone while you are in a Banner Control Session, you will glow.</li>
-<li>If you remain alive and still within the Timed-Point-Zone, for 7 minutes, you will gain Banner Control for your side, or be added to the Banner Control List.</li>
-<li>Your team will automatically gets 30 Battle Points every minute for each player on the Banner Control List.</li>
-<li>If a team steals battle control from the opposing team, the stealing team get an instant Banner Control Reversal Bonus, equal to twice the number battle points the enemy earned from capping the banner</li>
-<li>Allied nations can fully contribute to each other's banner control.</li>
-</ul>
-<p>Anyone without a millitary rank from the warring nations will get poison effect if they enter the banner zone. Give millitary ranks to people with <code>/n rank add &lt;name&gt; &lt;rank&gt;</code>.</p>
-<p>Millitary Ranks</p>
+<li>Block HP: ON
 <ul>
-<li>private</li>
-<li>sergeant</li>
-<li>lietenant</li>
-<li>captain</li>
-<li>major</li>
-<li>colonel</li>
-<li>general</li>
-</ul>
-<p>Private rank gets $100 of plunder and for each rank it goes up by $50 except major-&gt;colonel-&gt;general it goes up by $100.</p>
-<p>Win Battle</p>
+<li>TownBlock HP: 18</li>
+<li>HomeBlock HP: 36
 <ul>
-<li>Be the team with the highest Battle Points when the current battle session ends.</li>
-<li>The winner gets their Battle Points applied to the Siege Balance (added for attacker; subtracted for defender), the loser's Battle Points are lost.</li>
-</ul>
-<p>Win Siege</p>
-<ul>
-<li>Each siege lasts a maximum of 3 days, but this duration can be cut short if the attacker abandons, or the defender surrenders.</li>
-<li>When the siege ends, if the Siege Balance is greater than zero, the attacker wins, if the Siege Balance is zero or less, the defender wins.</li>
-<li>After the siege ends, the besieged town receives Siege Immunity, for x3 times the duration of the siege which protects the town from further attacks.</li>
-<li>After the siege ends, the besieged town also receives Revolt Immunity for 75% the duration of the Siege Immunity which stops the town from revolting</li>
-</ul>
-<p>Plunder Town</p>
-<ul>
-<li>This option is available to victorious nations
-To execute this action, as king or general, place a chest in the wilderness close to the town.
-<ul>
-<li>This action will rob the town of $40/plot:</li>
-<li>The plunder is divided between the bank of the victorious nation, and the soldiers who contributed to the victory, at a ratio of 3:1.</li>
-<li>Soldiers contributions are measured by banner control: a soldier receives exactly one share if they gain banner control at least once during a battle.</li>
+<li>Block HP will tick once every 5 seconds when considered active.</li>
 </ul>
 </li>
-<li>A plundered town cannot fall due to the money loss (it can only go 'bankrupt', preserving the town completely but blocking building/claiming/recruitment).</li>
-</ul>
-<p>Invade Town</p>
-<ul>
-<li>This option is available to victorious attacking nations.</li>
-<li>To execute this action, as a king/general, place a non-white banner in the wilderness close to the town:
-<ul>
-<li>This action will invade the town, setting the victorious nation to be its occupier.</li>
 </ul>
 </li>
-<li>The occupied town remains a full part of the home nation, with the exception of the following areas, where it is counted as part of the occupying nation:
+<li>Mayor/King Death: OFF</li>
+<li>Startup Delay: 0</li>
+<li>Points Per Kill: 10</li>
+<li>Fire Spread: ON</li>
+<li>Explosions: ON</li>
+<li>Economy: ON
 <ul>
-<li>50% of Town Resources.</li>
-<li>Bonus plots contributions.</li>
-<li>Dynmap town colour.</li>
-<li>Guardian town effects.</li>
+<li>If a town runs out of money during a war, they are removed from the war.
+<ul>
+<li>Death Cost: $50</li>
+<li>TownBlock Loss Cost: $100</li>
 </ul>
 </li>
-<li>Occupied towns can free themselves from occupation if they win a Revolt Siege. A Revolt Siege starts when the mayor places a non-white banner outside the town.</li>
-<li>The occupying nation can attempt to stamp out rebellion via a Suppression siege. A Suppression SIege starts when the occupier places a non-white banner outside the town.</li>
 </ul>
-<p>Abandon Attack</p>
+</li>
+</ul>
+<h2 id="war-type-specific-settings"><a class="header" href="#war-type-specific-settings">War Type Specific Settings</a></h2>
+<h3 id="riot"><a class="header" href="#riot">Riot</a></h3>
 <ul>
-<li>As a siege attacker (king/general/mayor, depending on siege type), place an all-white banner in the wilderness close to the town.</li>
+<li>Token cost: 3</li>
+<li>Minimum Required Players: 3</li>
+<li>Base Spoils: $10</li>
+<li>Cooldown Time: 5 days </li>
+<li>Resident Lives: 3</li>
+<li>Mayor Lives: 2</li>
+<li>Switch Use: NO</li>
+<li>Item Use: NO</li>
+<li>Winner Takes Over Town: YES</li>
 </ul>
-<p>Surrender Town</p>
+<h3 id="town"><a class="header" href="#town">Town</a></h3>
 <ul>
-<li>As a siege defender (king/general/mayor, depending on siege type), place an all-white banner in the wilderness close the the town.</li>
+<li>Token Cost: 1</li>
+<li>Minimum Required Players: 5</li>
+<li>Base Spoils: $100</li>
+<li>Cooldown Time: 1 day</li>
+<li>Resident Lives: 3</li>
+<li>Mayor Lives: 2</li>
+<li>Switch Use: YES</li>
+<li>Item Use: NO</li>
+<li>Winner Takes Over Town: NO</li>
 </ul>
-<p>For more in depth documentation read the <a href="https://github.com/TownyAdvanced/SiegeWar/wiki/Siege-War-User-Guide">Siege War Guide</a> or do <code>/sw guide</code> in game.</p>
+<h3 id="civil"><a class="header" href="#civil">Civil</a></h3>
+<ul>
+<li>Token Cost: 4</li>
+<li>Minimum Required Players: 7</li>
+<li>Base Spoils: $500</li>
+<li>Cooldown Time: 4 days</li>
+<li>Resident Lives: 6</li>
+<li>Mayor Lives: 4</li>
+<li>Switch Use: NO</li>
+<li>Item Use: NO</li>
+<li>Winner Takes Over Nation: YES</li>
+</ul>
+<h3 id="nation"><a class="header" href="#nation">Nation</a></h3>
+<ul>
+<li>Token Cost: 2</li>
+<li>Minimum Required Players: 9</li>
+<li>Base Spoils: $1000</li>
+<li>Cooldown Time: 2 days</li>
+<li>Resident Lives: 9</li>
+<li>Mayor Lives: 6</li>
+<li>Switch Use: NO</li>
+<li>Item Use: NO</li>
+<li>Winner Conquers Towns: YES</li>
+</ul>
 
                     </main>
 
