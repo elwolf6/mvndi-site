@@ -83,7 +83,7 @@ Using these commands you can redeem tokens for your town/nation.
 - Winner Takes Over Nation: YES
 ### Nation
 - Token Cost: 2
-- Minimum Required Players: 6
+- Minimum Required Players: 5
 - Base Spoils: $1000
 - Cooldown Time: 2 days
 - Resident Lives: 9
