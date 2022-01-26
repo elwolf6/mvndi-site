@@ -10,7 +10,7 @@ This page assumes you have read and understand the contents of link above.
 Mvndicraft currently only has 4 of the 5 wartypes in Event War as currently the "World War" type is under development.
 
 ## Obtaining Tokens
-One token is added to each town and nation, once every Towny Day. (24 hours)
+One token is added to each town, once every Towny Day. (24 hours)
 
 ## Declaring War
 In order to declare war you must redeem a War Declaration using your war tokens.
@@ -19,6 +19,10 @@ Using these commands you can redeem tokens for your town/nation.
 
 > /t redeem token <war_type></br>
 > /n redeem token <war_type>
+
+And to declare war, with a war declaration in your hand.
+
+> /declare war <war_type> <town/nation>
 
 ### Valid War Types
 - riot
