@@ -62,7 +62,7 @@ And to declare war, with a war declaration in your hand.
 - Cooldown Time: 5 days 
 - Resident Lives: 3
 - Mayor Lives: 2
-- Switch Use: NO
+- Switch Use: YES
 - Item Use: NO
 - Winner Takes Over Town: YES
 ### Town 
@@ -82,7 +82,7 @@ And to declare war, with a war declaration in your hand.
 - Cooldown Time: 4 days
 - Resident Lives: 6
 - Mayor Lives: 4
-- Switch Use: NO
+- Switch Use: YES
 - Item Use: NO
 - Winner Takes Over Nation: YES
 ### Nation
@@ -92,7 +92,7 @@ And to declare war, with a war declaration in your hand.
 - Cooldown Time: 2 days
 - Resident Lives: 9
 - Mayor Lives: 6
-- Switch Use: NO
+- Switch Use: YES
 - Item Use: NO
 - Winner Conquers Towns: YES
 
