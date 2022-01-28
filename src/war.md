@@ -67,7 +67,7 @@ And to declare war, with a war declaration in your hand.
 - Winner Takes Over Town: YES
 ### Town 
 - Token Cost: 1
-- Minimum Required Players: 3
+- Minimum Required Players: 2
 - Base Spoils: $100
 - Cooldown Time: 1 day
 - Resident Lives: 3
