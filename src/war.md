@@ -56,40 +56,36 @@ And to declare war, with a war declaration in your hand.
 
 ## War Type Specific Settings
 ### Riot
-- Token cost: 3
+- Token cost: 5
 - Minimum Required Players: 3
 - Base Spoils: $10
-- Cooldown Time: 5 days 
 - Resident Lives: 3
 - Mayor Lives: 2
 - Switch Use: YES
 - Item Use: NO
 - Winner Takes Over Town: YES
 ### Town 
-- Token Cost: 1
-- Minimum Required Players: 2
+- Token Cost: 2
+- Minimum Required Players: 3
 - Base Spoils: $100
-- Cooldown Time: 1 day
 - Resident Lives: 3
 - Mayor Lives: 2
 - Switch Use: YES
 - Item Use: NO
 - Winner Takes Over Town: NO
 ### Civil 
-- Token Cost: 4
+- Token Cost: 7
 - Minimum Required Players: 4
 - Base Spoils: $500
-- Cooldown Time: 4 days
 - Resident Lives: 6
 - Mayor Lives: 4
 - Switch Use: YES
 - Item Use: NO
 - Winner Takes Over Nation: YES
 ### Nation
-- Token Cost: 2
+- Token Cost: 4
 - Minimum Required Players: 5
 - Base Spoils: $1000
-- Cooldown Time: 2 days
 - Resident Lives: 9
 - Mayor Lives: 6
 - Switch Use: YES
