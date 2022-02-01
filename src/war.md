@@ -53,6 +53,7 @@ And to declare war, with a war declaration in your hand.
 	- TownBlock: 10 (Awarded when a townblock is won)
 	- Town: 20 (Awarded when a town is knocked out of a war)
 	- Nation 100 (Awarded when a nation is knocked out of a war)
+- Cooldown: 3 hours
 
 ## War Type Specific Settings
 ### Riot
