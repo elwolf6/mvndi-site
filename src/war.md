@@ -79,7 +79,7 @@ And to declare war, with a war declaration in your hand.
 
 ### Civil 
 - Token Cost: 7
-- Minimum Required Players: 4
+- Minimum Required Players: 6
 - Base Spoils: $500
 - Resident Lives: 6
 - Mayor Lives: 4
