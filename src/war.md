@@ -57,7 +57,7 @@ And to declare war, with a war declaration in your hand.
 ## War Type Specific Settings
 ### Riot
 - Token cost: 5
-- Minimum Required Players: 4
+- Minimum Required Players: 5
 - Base Spoils: $10
 - Resident Lives: 3
 - Mayor Lives: 2
@@ -68,7 +68,7 @@ And to declare war, with a war declaration in your hand.
 
 ### Town 
 - Token Cost: 2
-- Minimum Required Players: 3
+- Minimum Required Players: 4
 - Base Spoils: $100
 - Resident Lives: 3
 - Mayor Lives: 2
