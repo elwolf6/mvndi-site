@@ -41,7 +41,7 @@ And to declare war, with a war declaration in your hand.
 	- HomeBlock HP: 36
 		- Block HP will tick once every 5 seconds when considered active.
 - Mayor/King Death: OFF
-- Startup Delay: 0
+- Startup Delay: 10 minutes
 - Points Per Kill: 5
 - Fire Spread: ON
 - Explosions: ON
@@ -53,7 +53,6 @@ And to declare war, with a war declaration in your hand.
 	- TownBlock: 10 (Awarded when a townblock is won)
 	- Town: 20 (Awarded when a town is knocked out of a war)
 	- Nation 100 (Awarded when a nation is knocked out of a war)
-- Cooldown: 3 hours
 
 ## War Type Specific Settings
 ### Riot
@@ -65,6 +64,8 @@ And to declare war, with a war declaration in your hand.
 - Switch Use: YES
 - Item Use: YES
 - Winner Takes Over Town: YES
+- Cooldown: 3 hours
+
 ### Town 
 - Token Cost: 2
 - Minimum Required Players: 3
@@ -74,6 +75,8 @@ And to declare war, with a war declaration in your hand.
 - Switch Use: YES
 - Item Use: YES
 - Winner Takes Over Town: NO
+- Cooldown: 3 hours
+
 ### Civil 
 - Token Cost: 7
 - Minimum Required Players: 4
@@ -83,6 +86,8 @@ And to declare war, with a war declaration in your hand.
 - Switch Use: YES
 - Item Use: YES
 - Winner Takes Over Nation: YES
+- Cooldown: 24 hours
+
 ### Nation
 - Token Cost: 4
 - Minimum Required Players: 5
@@ -92,4 +97,4 @@ And to declare war, with a war declaration in your hand.
 - Switch Use: YES
 - Item Use: YES
 - Winner Conquers Towns: YES
-
+- Cooldown: 24 hours
