@@ -90,7 +90,7 @@ And to declare war, with a war declaration in your hand.
 
 ### Nation
 - Token Cost: 4
-- Minimum Required Players: 5
+- Minimum Required Players: 8
 - Base Spoils: $1000
 - Resident Lives: 9
 - Mayor Lives: 6
