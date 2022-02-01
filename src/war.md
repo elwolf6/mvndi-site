@@ -63,7 +63,7 @@ And to declare war, with a war declaration in your hand.
 - Resident Lives: 3
 - Mayor Lives: 2
 - Switch Use: YES
-- Item Use: NO
+- Item Use: YES
 - Winner Takes Over Town: YES
 ### Town 
 - Token Cost: 2
@@ -72,7 +72,7 @@ And to declare war, with a war declaration in your hand.
 - Resident Lives: 3
 - Mayor Lives: 2
 - Switch Use: YES
-- Item Use: NO
+- Item Use: YES
 - Winner Takes Over Town: NO
 ### Civil 
 - Token Cost: 7
@@ -81,7 +81,7 @@ And to declare war, with a war declaration in your hand.
 - Resident Lives: 6
 - Mayor Lives: 4
 - Switch Use: YES
-- Item Use: NO
+- Item Use: YES
 - Winner Takes Over Nation: YES
 ### Nation
 - Token Cost: 4
@@ -90,6 +90,6 @@ And to declare war, with a war declaration in your hand.
 - Resident Lives: 9
 - Mayor Lives: 6
 - Switch Use: YES
-- Item Use: NO
+- Item Use: YES
 - Winner Conquers Towns: YES
 
